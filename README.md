@@ -63,6 +63,9 @@ A React Native mobile application designed to manage student leads efficiently. 
 
 **Home Screen**
 
+ 
+ 
+ 
  ![WhatsApp Image 2025-12-28 at 12 17 40 PM](https://github.com/user-attachments/assets/43cb8a94-79cd-4e34-829b-f1e8e1b3a388)
 
 
@@ -71,20 +74,35 @@ A React Native mobile application designed to manage student leads efficiently. 
 
 **Add Lead (Form)**
 
-   ![WhatsApp Image 2025-12-28 at 12 17 41 PM](https://github.com/user-attachments/assets/255b51dc-3e94-4153-947e-99feb8e14609)
+
+
+
+![WhatsApp Image 2025-12-28 at 12 17 41 PM](https://github.com/user-attachments/assets/255b51dc-3e94-4153-947e-99feb8e14609)
 
 
 
 
-  **Lead Details**
- ![WhatsApp Image 2025-12-28 at 12 17 41 PM (1)](https://github.com/user-attachments/assets/787e7355-c246-40da-93ee-168faaa2bc40)
+
+**Lead Details**
+
+
+
+
+![WhatsApp Image 2025-12-28 at 12 17 41 PM (1)](https://github.com/user-attachments/assets/787e7355-c246-40da-93ee-168faaa2bc40)
  
+
+
+
+
 
 **Delete Lead**
 
 
 
 ![WhatsApp Image 2025-12-28 at 12 17 41 PM (2)](https://github.com/user-attachments/assets/ba58ab45-f54d-4c95-aeee-513f45fd6a81)
+
+
+
 
 
 
