@@ -23,12 +23,59 @@ A React Native mobile application designed to manage student leads efficiently. 
 *   **Icons:** Expo Vector Icons (Ionicons)
 *   **Components:** Functional Components & Hooks (`useState`, `useEffect`)
 
+  ## 🧭 App Screens Overview
+
+🔹 **Lead List Screen**
+
+      Displays all student leads
+      
+      Shows message when no leads are available
+      
+      Tap any lead to view full details
+      
+      Delete option available
+
+🔹 **Add Lead Screen**
+
+      Input fields:
+      
+      Name (required)
+      
+      Email or Phone (at least one required)
+      
+      Course / Interested Program (required)
+      
+      Notes (optional)
+      
+      Validates form before submission
+
+🔹 **Lead Details Screen**
+
+    Shows complete student information
+
+    Delete button to remove lead  
+
+---
+
 ## 📱 Screenshots
 
 | Home Screen | Add Lead (Form) | Lead Details |
 |:---:|:---:|:---:|
-| *(Add screenshot here)* | *(Add screenshot here)* | *(Add screenshot here)* |
+| ![WhatsApp Image 2025-12-28 at 12 17 40 PM](https://github.com/user-attachments/assets/43cb8a94-79cd-4e34-829b-f1e8e1b3a388)
+ |  ![WhatsApp Image 2025-12-28 at 12 17 41 PM](https://github.com/user-attachments/assets/255b51dc-3e94-4153-947e-99feb8e14609)
+| ![WhatsApp Image 2025-12-28 at 12 17 41 PM (1)](https://github.com/user-attachments/assets/787e7355-c246-40da-93ee-168faaa2bc40)
+ |
 
+**Delete Lead**
+![WhatsApp Image 2025-12-28 at 12 17 41 PM (2)](https://github.com/user-attachments/assets/ba58ab45-f54d-4c95-aeee-513f45fd6a81)
+
+
+
+
+![WhatsApp Image 2025-12-28 at 12 17 42 PM](https://github.com/user-attachments/assets/292ac94d-6dd3-4caa-8d5d-45eefc71f861)
+
+
+---
 ## 📦 Installation & Setup
 
 1.  **Clone the repository:**
@@ -65,3 +112,24 @@ StudentCRM/
 │   │   └── LeadDetailsScreen.js # Detailed View
 │   └── theme/
 │       └── colors.js       # Color Palette
+
+```
+
+--- 
+
+##🙌 **Conclusion**
+
+This project demonstrates:
+
+React Native fundamentals
+
+Hooks-based state management
+
+Navigation handling
+
+List rendering with FlatList
+
+Form validation logic
+
+Clean project structure and readable code
+
