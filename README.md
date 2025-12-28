@@ -1,50 +1,67 @@
-# Welcome to your Expo app 👋
+# 🎓 Student Lead Management App (Mini CRM)
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+A React Native mobile application designed to manage student leads efficiently. This app allows users to create, view, search, and delete student lead details with a clean and responsive UI.
 
-## Get started
+## 🚀 Features
 
-1. Install dependencies
+*   **Lead Management:** Add, view, and delete student leads.
+*   **Validation:** Strict validation for names, emails, and phone numbers (blocks invalid formats like `0000000000`).
+*   **Persistent Storage:** Data is saved locally using `AsyncStorage`, so it remains available after restarting the app.
+*   **Dynamic UI:**
+    *   Tailwind-inspired card styling.
+    *   Auto-generated avatars based on student names.
+    *   Custom Modal Dropdown for course selection.
+    *   Keyboard avoidance for smooth form entry.
+*   **Navigation:** Stack navigation between List, Add, and Detail screens.
 
-   ```bash
-   npm install
-   ```
+## 🛠 Tech Stack
 
-2. Start the app
+*   **Framework:** React Native (Expo)
+*   **Language:** JavaScript (ES6+)
+*   **Navigation:** React Navigation (Native Stack)
+*   **Storage:** @react-native-async-storage/async-storage
+*   **Icons:** Expo Vector Icons (Ionicons)
+*   **Components:** Functional Components & Hooks (`useState`, `useEffect`)
 
-   ```bash
-   npx expo start
-   ```
+## 📱 Screenshots
 
-In the output, you'll find options to open the app in a
+| Home Screen | Add Lead (Form) | Lead Details |
+|:---:|:---:|:---:|
+| *(Add screenshot here)* | *(Add screenshot here)* | *(Add screenshot here)* |
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+## 📦 Installation & Setup
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+1.  **Clone the repository:**
+    ```bash
+    git clone https://github.com/YOUR_USERNAME/StudentCRM.git
+    cd StudentCRM
+    ```
 
-## Get a fresh project
+2.  **Install Dependencies:**
+    ```bash
+    npm install
+    ```
 
-When you're ready, run:
+3.  **Run the App:**
+    ```bash
+    npx expo start
+    ```
 
-```bash
-npm run reset-project
-```
+4.  **View on Device:**
+    *   Scan the QR code using the **Expo Go** app (Android/iOS).
+    *   Or press `a` to run on Android Emulator.
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+## 📂 Project Structure
 
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+```text
+StudentCRM/
+├── App.js                  # Main Entry & Navigation
+├── src/
+│   ├── components/
+│   │   └── LeadCard.js     # Reusable List Item Component
+│   ├── screens/
+│   │   ├── HomeScreen.js   # Main Dashboard
+│   │   ├── AddLeadScreen.js # Form with Validation
+│   │   └── LeadDetailsScreen.js # Detailed View
+│   └── theme/
+│       └── colors.js       # Color Palette
